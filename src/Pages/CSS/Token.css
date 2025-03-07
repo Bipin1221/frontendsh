@@ -1,0 +1,83 @@
+.verify-token-page {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #f4f4f4;
+}
+
+.verify-token {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+
+.verify-token h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.verify-token-input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.verify-token-input label {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.verify-token-input input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    height: 32px;
+}
+
+.verify-token-input input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.verify-token-btn button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: #2C9CF0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.verify-token-btn button:hover {
+    background: #1b7dc4;
+    font-size: 19px;
+}
+
+.error-message {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
